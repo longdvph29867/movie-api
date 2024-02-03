@@ -16,6 +16,14 @@ const CSS_URL =
 
 const app = express();
 
+// Middleware để chuyển hướng
+app.use((req, res, next) => {
+  if (req.url === "/") {
+    return res.redirect("https://movie-api-five-bice.vercel.app/v1/docs");
+  }
+  next();
+});
+
 app.use(bodyParser.json()); // to use body object in requests
 dotenv.config();
 
@@ -36,7 +44,7 @@ const options = {
         url: "http://localhost:8000/",
       },
       {
-        url: "231/",
+        url: "https://movie-api-five-bice.vercel.app/",
       },
     ],
   },
