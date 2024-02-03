@@ -41,10 +41,10 @@ const options = {
     },
     servers: [
       {
-        url: "http://localhost:8000/",
+        url: "https://movie-api-five-bice.vercel.app/",
       },
       {
-        url: "https://movie-api-five-bice.vercel.app/",
+        url: "http://localhost:8000/",
       },
     ],
   },
