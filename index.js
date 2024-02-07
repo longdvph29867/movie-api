@@ -1,65 +1,38 @@
-import express from "express";
-import cors from "cors";
-import morgan from "morgan";
-import dotenv from "dotenv";
-import swaggerUI from "swagger-ui-express";
-import swaggerJsDoc from "swagger-jsdoc";
-import bodyParser from "body-parser";
-import routes from "./src/routes/index.js";
-import { connectDB } from "./src/utils/db.js";
-dotenv.config();
-const PORT = process.env.PORT;
-const URI_DB = process.env.URI_DB;
-// CDN CSS
-const CSS_URL =
-  "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.1.0/swagger-ui.min.css";
+const mongoose = require("mongoose");
+const app = require("./src/app");
+const config = require("./src/config/config");
+const logger = require("./src/config/logger");
 
-const app = express();
-
-// Middleware để chuyển hướng
-app.use((req, res, next) => {
-  if (req.url === "/") {
-    return res.redirect("https://movie-api-five-bice.vercel.app/v1/docs");
-  }
-  next();
+let server;
+mongoose.connect(config.mongoose.url, config.mongoose.options).then(() => {
+  logger.info("Connected to MongoDB");
+  server = app.listen(config.port, () => {
+    logger.info(`Listening to port ${config.port}`);
+  });
 });
 
-app.use(bodyParser.json()); // to use body object in requests
-dotenv.config();
-
-app.use(morgan("dev"));
-app.use(cors({ origin: "*" }));
-connectDB(URI_DB);
-
-const options = {
-  definition: {
-    openapi: "3.0.0",
-    info: {
-      title: "Express API with Swagger",
-      version: "0.1.0",
-      description: "My API Documentation",
-    },
-    servers: [
-      {
-        url: "https://movie-api-five-bice.vercel.app/",
-      },
-      {
-        url: "http://localhost:8000/",
-      },
-    ],
-  },
-  apis: ["./src/**/*.js"],
-  cors: true,
+const exitHandler = () => {
+  if (server) {
+    server.close(() => {
+      logger.info("Server closed");
+      process.exit(1);
+    });
+  } else {
+    process.exit(1);
+  }
 };
 
-const specs = swaggerJsDoc(options);
+const unexpectedErrorHandler = (error) => {
+  logger.error(error);
+  exitHandler();
+};
 
-app.use(
-  "/v1/docs",
-  swaggerUI.serve,
-  swaggerUI.setup(specs, { customCssUrl: CSS_URL })
-);
+process.on("uncaughtException", unexpectedErrorHandler);
+process.on("unhandledRejection", unexpectedErrorHandler);
 
-app.use("/", routes);
-
-app.listen(PORT, () => console.log(`Server runs on port ${PORT}`));
+process.on("SIGTERM", () => {
+  logger.info("SIGTERM received");
+  if (server) {
+    server.close();
+  }
+});
