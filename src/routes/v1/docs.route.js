@@ -18,6 +18,7 @@ router.get(
   "/",
   swaggerUi.setup(specs, {
     explorer: true,
+    customCssUrl: CSS_URL,
   })
 );
 
