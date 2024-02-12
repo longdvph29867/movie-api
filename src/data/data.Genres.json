@@ -1,0 +1,128 @@
+[{
+  "_id": {
+    "$oid": "659c0fea4c103a4ca851d04f"
+  },
+  "genreName": "Gia đình",
+  "genreSlug": "gia-djinh",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "659c10014c103a4ca851d052"
+  },
+  "genreName": "Hài",
+  "genreSlug": "hai",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "659c10124c103a4ca851d055"
+  },
+  "genreName": "Hành động",
+  "genreSlug": "hanh-djong",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "659c10214c103a4ca851d058"
+  },
+  "genreName": "Phiêu lưu",
+  "genreSlug": "phieu-luu",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "659c105e4c103a4ca851d061"
+  },
+  "genreName": "Tâm lý",
+  "genreSlug": "tam-ly",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "659c10694c103a4ca851d064"
+  },
+  "genreName": "Tình cảm",
+  "genreSlug": "tinh-cam",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "659c10704c103a4ca851d067"
+  },
+  "genreName": "Thần thoại",
+  "genreSlug": "than-thoai",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "659c10964c103a4ca851d06a"
+  },
+  "genreName": "Hoạt Hình",
+  "genreSlug": "hoat-hinh",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "659c10b44c103a4ca851d06e"
+  },
+  "genreName": "Kinh Dị",
+  "genreSlug": "kinh-di",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "659c10c44c103a4ca851d071"
+  },
+  "genreName": "Tiểu Sử",
+  "genreSlug": "tieu-su",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "659c10dd4c103a4ca851d075"
+  },
+  "genreName": "Hồi hộp",
+  "genreSlug": "hoi-hop",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "659c10e74c103a4ca851d078"
+  },
+  "genreName": "Tội phạm",
+  "genreSlug": "toi-pham",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "659c10f94c103a4ca851d07b"
+  },
+  "genreName": "Khoa Học Viễn Tưởng",
+  "genreSlug": "khoa-hoc-vien-tuong",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "659c110c4c103a4ca851d07e"
+  },
+  "genreName": "Lịch Sử",
+  "genreSlug": "lich-su",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "659c11664c103a4ca851d081"
+  },
+  "genreName": "Hòa nhạc",
+  "genreSlug": "hoa-nhac",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "659c11724c103a4ca851d084"
+  },
+  "genreName": "Phim tài liệu",
+  "genreSlug": "phim-tai-lieu",
+  "active": true
+}]

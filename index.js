@@ -7,6 +7,9 @@ import swaggerJsDoc from "swagger-jsdoc";
 import bodyParser from "body-parser";
 import routes from "./src/routes/index.js";
 import { connectDB } from "./src/utils/db.js";
+import config from "./src/config/config.js";
+import { jwtStrategy } from "./src/config/passport.js";
+import passport from "passport";
 dotenv.config();
 const PORT = process.env.PORT;
 const URI_DB = process.env.URI_DB;
@@ -29,13 +32,15 @@ dotenv.config();
 
 app.use(morgan("dev"));
 app.use(cors({ origin: "*" }));
-connectDB(URI_DB);
-
+connectDB(config.mongoose.url);
+// jwt authentication
+app.use(passport.initialize());
+passport.use("jwt", jwtStrategy);
 const options = {
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "Express API with Swagger",
+      title: "Movie API",
       version: "0.1.0",
       description: "My API Documentation",
     },

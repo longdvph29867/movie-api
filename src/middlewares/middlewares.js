@@ -1,6 +1,6 @@
 import dotenv from "dotenv";
 import jwt from "jsonwebtoken";
-import Users from "../models/Users.js";
+import User from "../models/user.model.js";
 dotenv.config();
 const { SECRET_CODE } = process.env;
 
@@ -14,7 +14,7 @@ export const checkPermission = async (req, res, next) => {
     }
 
     const decoded = jwt.verify(token, SECRET_CODE);
-    const user = await Users.findById(decoded.id);
+    const user = await User.findById(decoded.id);
     if (!user) {
       return res.status(403).json({
         message: "Token lỗi hoặc hết hạn!",

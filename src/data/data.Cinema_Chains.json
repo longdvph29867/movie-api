@@ -1,0 +1,112 @@
+[{
+  "_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "cinemaName": "CGV Cinemas",
+  "cinemaCode": "CGV",
+  "slug": "cgv-cinemas",
+  "logo": "https://gigamall.com.vn/data/2019/05/06/11365490_logo-cgv-500x500.jpg",
+  "active": true,
+  "createdAt": {
+    "$date": "2024-02-11T01:50:50.187Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T01:50:50.187Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c828c8f2ddf8d7a717cdd1"
+  },
+  "cinemaName": "Galaxy Cinema",
+  "cinemaCode": "Galaxy",
+  "slug": "galaxy-cinema",
+  "logo": "https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/c366498992d989524d4a69c495a6189e.png",
+  "active": true,
+  "createdAt": {
+    "$date": "2024-02-11T01:54:16.125Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T01:54:16.125Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c8292ef2ddf8d7a717cdd4"
+  },
+  "cinemaName": "Lotte Cinema",
+  "cinemaCode": "Lotte",
+  "slug": "lotte-cinema",
+  "logo": "https://play-lh.googleusercontent.com/4mLJ2UzPfsq0PChJN0xsG2K3mwU0v-43k16779kv54-QJLww50VvFb3ZMcWryzAlYrE",
+  "active": true,
+  "createdAt": {
+    "$date": "2024-02-11T01:55:58.609Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T01:55:58.609Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c8298af2ddf8d7a717cdd7"
+  },
+  "cinemaName": "BHD Star Cineplex",
+  "cinemaCode": "BHD",
+  "slug": "bhd-star-cineplex",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/5/57/Logo_BHD_Star_Cineplex.png",
+  "active": true,
+  "createdAt": {
+    "$date": "2024-02-11T01:57:30.961Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T01:57:30.961Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c829e5f2ddf8d7a717cdda"
+  },
+  "cinemaName": "CineStar",
+  "cinemaCode": "CineStar",
+  "slug": "cinestar",
+  "logo": "https://cinestar.com.vn/pictures/400x400.png",
+  "active": true,
+  "createdAt": {
+    "$date": "2024-02-11T01:59:01.720Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T01:59:01.720Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c82a3ef2ddf8d7a717cddd"
+  },
+  "cinemaName": "Mega GS",
+  "cinemaCode": "Mega",
+  "slug": "mega-gs",
+  "logo": "https://static.wikia.nocookie.net/logos/images/4/46/MegaGS_Entertainmnt_logo_201x.png/revision/latest/scale-to-width-down/822?cb=20201216085741&path-prefix=vi",
+  "active": true,
+  "createdAt": {
+    "$date": "2024-02-11T02:00:30.584Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T02:00:30.584Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c82a8ff2ddf8d7a717cde0"
+  },
+  "cinemaName": "Beta Cinemas",
+  "cinemaCode": "Beta",
+  "slug": "beta-cinemas",
+  "logo": "https://theme.hstatic.net/200000727463/1001067697/14/share_fb_home.jpg?v=182",
+  "active": true,
+  "createdAt": {
+    "$date": "2024-02-11T02:01:51.983Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T02:01:51.983Z"
+  }
+}]

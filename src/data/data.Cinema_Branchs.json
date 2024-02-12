@@ -1,0 +1,864 @@
+[{
+  "_id": {
+    "$oid": "65c83edf57cc1ba70a824494"
+  },
+  "cinemaBranchName": "String",
+  "cinemaBranchCode": "String",
+  "slug": "string",
+  "location": "String",
+  "cinema_chain_id": {
+    "$oid": "65c6daf7e8cb7057aa907773"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T03:28:31.317Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T03:28:31.317Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c859996515c40bc83a24ab"
+  },
+  "cinemaBranchName": "CGV Vincom Center Bà Triệu",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-vincom-center-ba-trieu",
+  "location": "Tầng 6, Toà nhà VinCom Center Hà Nội 191 đường Bà Triệu Quận Hai Bà Trưng Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:22:33.390Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:22:33.390Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c859db6515c40bc83a24ae"
+  },
+  "cinemaBranchName": "CGV Hồ Gươm Plaza",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-ho-guom-plaza",
+  "location": "Tầng 3, TTTM Hồ Gươm Plaza, 110 Trần Phú, Phường Mỗ Lao, Quận Hà Đông, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:23:39.128Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:23:39.128Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c859fa6515c40bc83a24b1"
+  },
+  "cinemaBranchName": "CGV Aeon Long Biên",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-aeon-long-bien",
+  "location": "Tầng 4 - TTTM AEON Long Biên, Số 27 Cổ Linh, Quận Long Biên, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:24:10.419Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:24:10.419Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85a176515c40bc83a24b4"
+  },
+  "cinemaBranchName": "CGV Vincom Nguyễn Chí Thanh",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-vincom-nguyen-chi-thanh",
+  "location": "Số 54A Nguyễn Chí Thanh, Phường Láng Thượng, Quận Đống Đa, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:24:39.418Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:24:39.418Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85a456515c40bc83a24b7"
+  },
+  "cinemaBranchName": "CGV Indochina Plaza Hà Nội",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-indochina-plaza-ha-noi",
+  "location": "Tầng 4, Indochina Plaza Hà Nội, 241 Xuân Thủy, Q. Cầu Giấy, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:25:25.877Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:25:25.877Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85a5f6515c40bc83a24ba"
+  },
+  "cinemaBranchName": "CGV Rice City",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-rice-city",
+  "location": "Tầng 2 và 4, Tòa nhà Trung - RICE CITY Linh Đàm, Phường Hoàng Liệt, Quận Hoàng Mai, Thành phố Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:25:51.284Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:25:51.284Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85a826515c40bc83a24bd"
+  },
+  "cinemaBranchName": "CGV Hà Nội Centerpoint",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-ha-noi-centerpoint",
+  "location": "Tầng 5 TTTM Hà Nội Centerpoint, 27 Lê Văn Lương (Số 85 Lê Văn Lương cũ), Phường Nhân Chính, Quận Thanh Xuân, TP.Hà Nội.",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:26:26.463Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:26:26.463Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85aa56515c40bc83a24c0"
+  },
+  "cinemaBranchName": "CGV Vincom Royal City",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-vincom-royal-city",
+  "location": "Tầng B2- Khu R4, TTTM Vincom Mega Mall Royal City , 72A Nguyễn Trãi,Thanh Xuân, Hà Nội.",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:27:01.731Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:27:01.731Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85ade6515c40bc83a24c3"
+  },
+  "cinemaBranchName": "CGV Vincom Times City",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-vincom-times-city",
+  "location": "Tầng B1, TTTM Vincom Mega Mall Times City, 458 Minh Khai, Hai Bà Trưng, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:27:58.135Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:27:58.135Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85b1c6515c40bc83a24c9"
+  },
+  "cinemaBranchName": "CGV Vincom Long Biên",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-vincom-long-bien",
+  "location": "Tầng 5, TTTM Vincom Plaza Long Biên, khu đô thị Vinhomes Riverside, Phường Phúc Lợi, Quận Long Biên, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:29:00.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:29:00.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85b356515c40bc83a24cc"
+  },
+  "cinemaBranchName": "CGV Mac Plaza (Machinco)",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-mac-plaza-(machinco)",
+  "location": "Tầng 7, Trung tâm thương mại Mac Plaza, 10 Trần Phú, Q, Hà Đông, Hanoi City",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:29:25.247Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:29:25.247Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85b4f6515c40bc83a24cf"
+  },
+  "cinemaBranchName": "CGV Trương Định Plaza",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-truong-djinh-plaza",
+  "location": "Tầng 5, 461 Trương Định, Hoàng Mai, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:29:51.285Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:29:51.285Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85b696515c40bc83a24d2"
+  },
+  "cinemaBranchName": "CGV Tràng Tiền Plaza",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-trang-tien-plaza",
+  "location": "Tầng 5 , TTTM Tràng Tiền Plaza 24 Hai Bà Trưng, Q.Hoàn Kiếm, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:30:17.593Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:30:17.593Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85b816515c40bc83a24d5"
+  },
+  "cinemaBranchName": "CGV Sun Grand Thụy Khuê",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-sun-grand-thuy-khue",
+  "location": "Tầng 5.1 - 5.2, Sun Grand City Thuy Khue Residence, 69B Thụy Khuê, P. Thụy Khuê, Q. Tây Hồ, Hà Nội.",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:30:41.964Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:30:41.964Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85ba86515c40bc83a24d8"
+  },
+  "cinemaBranchName": "CGV Sun Grand Lương Yên",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-sun-grand-luong-yen",
+  "location": "Tầng 4 - 5, Sun Grand City Ancora Residences, Số 3 Lương Yên, P. Bạch Đằng, Q. Hai Bà Trưng, Hà Nội.",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:31:20.551Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:31:20.551Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85bbc6515c40bc83a24db"
+  },
+  "cinemaBranchName": "CGV Vincom Bắc Từ Liêm",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-vincom-bac-tu-liem",
+  "location": "Tòa nhà 21B5, 234 Phạm Văn Đồng, Bắc Từ Liêm, Cổ Nhuế, Từ Liêm, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:31:40.034Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:31:40.034Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85bd96515c40bc83a24de"
+  },
+  "cinemaBranchName": "CGV Vincom Metropolis Liễu Giai",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-vincom-metropolis-lieu-giai",
+  "location": "29 Liễu Giai, quận Ba Đình, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:32:09.212Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:32:09.212Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85bf46515c40bc83a24e1"
+  },
+  "cinemaBranchName": "CGV Xuân Diệu",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-xuan-dieu",
+  "location": "Tầng 2, Tòa nhà D’. Le Roi Soleil, số 59 Xuân Diệu, P. Quảng An, Q. Tây Hồ, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:32:37.002Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:32:37.002Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85c146515c40bc83a24e4"
+  },
+  "cinemaBranchName": "CGV Vincom Sky Lake Phạm Hùng",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-vincom-sky-lake-pham-hung",
+  "location": "Tầng 3 - TTTM Vincom Plaza Skylake, đường Phạm Hùng, P. Mỹ Đình 1, Q.Nam Từ Liêm, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:33:08.173Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:33:08.173Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85c2e6515c40bc83a24e7"
+  },
+  "cinemaBranchName": "CGV Vincom Trần Duy Hưng",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-vincom-tran-duy-hung",
+  "location": "Tầng 5 - TTTM VINCOM CENTER TRẦN DUY HUNG, Đường Trần Duy Hưng, P. Trung Hòa, Q. Cầu Giấy, Hà Nội.",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:33:34.797Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:33:34.797Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85c436515c40bc83a24ea"
+  },
+  "cinemaBranchName": "CGV Aeon Hà Đông",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-aeon-ha-djong",
+  "location": "Tầng 3 & 4 – TTTM AEON MALL HÀ ĐÔNG, P. Dương Nội, Q. Hà Đông, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:33:55.699Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:33:55.699Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85c586515c40bc83a24ed"
+  },
+  "cinemaBranchName": "CGV Vincom Ocean Park",
+  "cinemaBranchCode": "CGV",
+  "slug": "cgv-vincom-ocean-park",
+  "location": "Tầng 4, Trung Tâm Thương Mại Vincom Ocean Park, Huyện Gia Lâm, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c827faf2ddf8d7a717cdce"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:34:16.567Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:34:16.567Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85cf26515c40bc83a24f0"
+  },
+  "cinemaBranchName": "Galaxy Mipec Long Biên",
+  "cinemaBranchCode": "Galaxy",
+  "slug": "galaxy-mipec-long-bien",
+  "location": "Địa chỉ: Tầng 6, TTTM Mipec Long Biên, Số 2, Phố Long Biên 2, Ngọc Lâm, Long Biên, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c828c8f2ddf8d7a717cdd1"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:36:50.333Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:36:50.333Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85d376515c40bc83a24f3"
+  },
+  "cinemaBranchName": "Galaxy Nguyễn Du",
+  "cinemaBranchCode": "Galaxy",
+  "slug": "galaxy-nguyen-du",
+  "location": "116 Nguyễn Du, Quận 1, Tp.HCM",
+  "cinema_chain_id": {
+    "$oid": "65c828c8f2ddf8d7a717cdd1"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:37:59.470Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:37:59.470Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85d526515c40bc83a24f6"
+  },
+  "cinemaBranchName": "Galaxy Sala",
+  "cinemaBranchCode": "Galaxy",
+  "slug": "galaxy-sala",
+  "location": "Tầng 3, Thiso Mall Sala, 10 Mai Chí Thọ, Phường Thủ Thiêm, Thành phố Thủ Đức",
+  "cinema_chain_id": {
+    "$oid": "65c828c8f2ddf8d7a717cdd1"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:38:26.889Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:38:26.889Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85d656515c40bc83a24f9"
+  },
+  "cinemaBranchName": "Galaxy Tân Bình",
+  "cinemaBranchCode": "Galaxy",
+  "slug": "galaxy-tan-binh",
+  "location": "246 Nguyễn Hồng Đào, Q.TB, Tp.HCM",
+  "cinema_chain_id": {
+    "$oid": "65c828c8f2ddf8d7a717cdd1"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:38:45.263Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:38:45.263Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85d7a6515c40bc83a24fc"
+  },
+  "cinemaBranchName": "Galaxy Kinh Dương Vương",
+  "cinemaBranchCode": "Galaxy",
+  "slug": "galaxy-kinh-duong-vuong",
+  "location": "718bis Kinh Dương Vương, Q6, TpHCM.",
+  "cinema_chain_id": {
+    "$oid": "65c828c8f2ddf8d7a717cdd1"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:39:06.908Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:39:06.908Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85d8f6515c40bc83a24ff"
+  },
+  "cinemaBranchName": "Galaxy Quang Trung",
+  "cinemaBranchCode": "Galaxy",
+  "slug": "galaxy-quang-trung",
+  "location": "Lầu 3, TTTM CoopMart Foodcosa số 304A, Quang Trung, P.11, Q. Gò Vấp, Tp.HCM",
+  "cinema_chain_id": {
+    "$oid": "65c828c8f2ddf8d7a717cdd1"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:39:27.235Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:39:27.235Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85da46515c40bc83a2502"
+  },
+  "cinemaBranchName": "Galaxy Trung Chánh",
+  "cinemaBranchCode": "Galaxy",
+  "slug": "galaxy-trung-chanh",
+  "location": "TTVH Quận 12, Số 09 Quốc Lộ 22, P. Trung Mỹ Tây, Quận 12",
+  "cinema_chain_id": {
+    "$oid": "65c828c8f2ddf8d7a717cdd1"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:39:48.192Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:39:48.192Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85dba6515c40bc83a2505"
+  },
+  "cinemaBranchName": "Galaxy Huỳnh Tấn Phát",
+  "cinemaBranchCode": "Galaxy",
+  "slug": "galaxy-huynh-tan-phat",
+  "location": "Lầu 2, TTTM Coopmart, số 1362 Huỳnh Tấn Phát, khu phố 1, Phường Phú Mỹ, Quận 7, Tp.Hồ Chí Minh, Việt Nam.",
+  "cinema_chain_id": {
+    "$oid": "65c828c8f2ddf8d7a717cdd1"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:40:10.813Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:40:10.813Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85ec86515c40bc83a2508"
+  },
+  "cinemaBranchName": "Lotte Hà Đông",
+  "cinemaBranchCode": "Lotte",
+  "slug": "lotte-ha-djong",
+  "location": "Tầng 4, Mê Linh Plaza Hà Đông, Đường Tô Hiệu, P.Hà Cầu, Q.Hà Đông, TP.Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c8292ef2ddf8d7a717cdd4"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:44:40.484Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:44:40.484Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85f1e6515c40bc83a250b"
+  },
+  "cinemaBranchName": "Lotte Cinema Thăng Long",
+  "cinemaBranchCode": "Lotte",
+  "slug": "lotte-cinema-thang-long",
+  "location": "Tầng 3, TTTM Big C Thăng Long, số 222 đường Trần Duy Hưng, Trung Hoà, Cầu Giấy, Tp. Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c8292ef2ddf8d7a717cdd4"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:46:06.893Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:46:06.893Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85f316515c40bc83a250e"
+  },
+  "cinemaBranchName": "Lotte Cinema Long Biên",
+  "cinemaBranchCode": "Lotte",
+  "slug": "lotte-cinema-long-bien",
+  "location": "Tầng 3, TTTM Savico Megamall, số 7-9 đường Nguyễn Văn Linh, Gia Thụy, Long Biên, Tp. Hà Nội.",
+  "cinema_chain_id": {
+    "$oid": "65c8292ef2ddf8d7a717cdd4"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:46:25.776Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:46:25.776Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85f476515c40bc83a2511"
+  },
+  "cinemaBranchName": "Lotte Cinema Kosmo",
+  "cinemaBranchCode": "Lotte",
+  "slug": "lotte-cinema-kosmo",
+  "location": "Tầng 2, Kosmo Tây Hồ, số 161 đường Xuân La, phường Bắc Từ Liêm, Tp. Hà Nội.",
+  "cinema_chain_id": {
+    "$oid": "65c8292ef2ddf8d7a717cdd4"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:46:47.538Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:46:47.538Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c85f706515c40bc83a2514"
+  },
+  "cinemaBranchName": "Lotte Cinema Nam Sài Gòn",
+  "cinemaBranchCode": "Lotte",
+  "slug": "lotte-cinema-nam-sai-gon",
+  "location": "Tầng 3, TTTM Lotte, số 469 đường Nguyễn Hữu Thọ, P.Tân Hưng, Q.7, TP.HCM",
+  "cinema_chain_id": {
+    "$oid": "65c8292ef2ddf8d7a717cdd4"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:47:28.011Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:47:28.011Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c8600c6515c40bc83a2517"
+  },
+  "cinemaBranchName": "BHD Star Phạm Ngọc Thạch",
+  "cinemaBranchCode": "BHDStar",
+  "slug": "bhd-star-pham-ngoc-thach",
+  "location": "02 Phạm Ngọc Thạch, Trung Tự, Q. Đống Đa, Tp. Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c8298af2ddf8d7a717cdd7"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:50:04.958Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:50:04.958Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c8601f6515c40bc83a251a"
+  },
+  "cinemaBranchName": "BHD Star Discovery",
+  "cinemaBranchCode": "BHDStar",
+  "slug": "bhd-star-discovery",
+  "location": "Tầng 8, TTTM Discovery – 302 Cầu Giấy, P.Dịch Vọng, Quận Cầu Giấy, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c8298af2ddf8d7a717cdd7"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:50:23.248Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:50:23.248Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c8603e6515c40bc83a251d"
+  },
+  "cinemaBranchName": "BHD Star The Garden",
+  "cinemaBranchCode": "BHDStar",
+  "slug": "bhd-star-the-garden",
+  "location": "Tầng 4, TTTM The Garden, khu đô thị The Manor, đường Mễ Trì, phường Mỹ Đình 1, quận Nam Từ Liêm, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c8298af2ddf8d7a717cdd7"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:50:54.772Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:50:54.772Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c860b96515c40bc83a2520"
+  },
+  "cinemaBranchName": "Cinestar Quốc Thanh",
+  "cinemaBranchCode": "CineStar",
+  "slug": "cinestar-quoc-thanh",
+  "location": "271 Nguyễn Trãi, Phường Nguyễn Cư Trinh, Quận 1, Thành Phố Hồ Chí Minh",
+  "cinema_chain_id": {
+    "$oid": "65c829e5f2ddf8d7a717cdda"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:52:57.276Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:52:57.276Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c860d86515c40bc83a2523"
+  },
+  "cinemaBranchName": "Cinestar Hai Bà Trưng",
+  "cinemaBranchCode": "CineStar",
+  "slug": "cinestar-hai-ba-trung",
+  "location": "135 Hai Bà Trưng, Phường Bến Nghé ,Quận 1,Thành Phố Hồ Chí Minh",
+  "cinema_chain_id": {
+    "$oid": "65c829e5f2ddf8d7a717cdda"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:53:28.789Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:53:28.789Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c860eb6515c40bc83a2526"
+  },
+  "cinemaBranchName": "Cinestar Đà Lạt",
+  "cinemaBranchCode": "CineStar",
+  "slug": "cinestar-dja-lat",
+  "location": "Quảng trường Lâm Viên, P10, TP.Đà Lạt, Lâm Đồng",
+  "cinema_chain_id": {
+    "$oid": "65c829e5f2ddf8d7a717cdda"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:53:47.012Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:53:47.012Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c861676515c40bc83a2529"
+  },
+  "cinemaBranchName": "Mega GS Cao Thắng",
+  "cinemaBranchCode": "MegaGS",
+  "slug": "mega-gs-cao-thang",
+  "location": "Lầu 6 - 7, 19 Cao Thắng, P.2, Q.3, Tp. Hồ Chí Minh",
+  "cinema_chain_id": {
+    "$oid": "65c82a3ef2ddf8d7a717cddd"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:55:51.497Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:55:51.497Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c861916515c40bc83a252c"
+  },
+  "cinemaBranchName": "Mega GS Lý Chính Thắng",
+  "cinemaBranchCode": "MegaGS",
+  "slug": "mega-gs-ly-chinh-thang",
+  "location": "212 Lý Chính Thắng, phường 9, quận 3",
+  "cinema_chain_id": {
+    "$oid": "65c82a3ef2ddf8d7a717cddd"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:56:33.243Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:56:33.243Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "cinemaBranchName": "Beta Thanh Xuân",
+  "cinemaBranchCode": "Beta",
+  "slug": "beta-thanh-xuan",
+  "location": "Tầng hầm B1, tòa nhà Golden West, Số 2 Lê Văn Thiêm, Nhân Chính, Thanh Xuân, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c82a8ff2ddf8d7a717cde0"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T05:59:40.714Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T05:59:40.714Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c862706515c40bc83a2532"
+  },
+  "cinemaBranchName": "Beta Đan Phượng",
+  "cinemaBranchCode": "Beta",
+  "slug": "beta-djan-phuong",
+  "location": "Tầng 2 tòa nhà HHA, khu đô thị XPHomes (Tân Tây Đô), Tân Lập, Đan Phượng, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c82a8ff2ddf8d7a717cde0"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T06:00:16.746Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T06:00:16.746Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "cinemaBranchName": "Beta Mỹ Đình",
+  "cinemaBranchCode": "Beta",
+  "slug": "beta-my-djinh",
+  "location": "Tầng hầm B1, tòa nhà Golden Palace, đường Mễ Trì, quận Nam Từ Liêm, Hà Nội",
+  "cinema_chain_id": {
+    "$oid": "65c82a8ff2ddf8d7a717cde0"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T06:00:38.374Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T06:00:38.374Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "cinemaBranchName": "Beta Giải Phóng",
+  "cinemaBranchCode": "Beta",
+  "slug": "beta-giai-phong",
+  "location": "Tầng 3, tòa IP2, Chung cư Imperial Plaza, 360 Giải Phóng, phường Phương Liệt, quận Thanh Xuân, Hà Nội.",
+  "cinema_chain_id": {
+    "$oid": "65c82a8ff2ddf8d7a717cde0"
+  },
+  "createdAt": {
+    "$date": "2024-02-11T06:01:01.194Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-11T06:01:01.194Z"
+  }
+}]
