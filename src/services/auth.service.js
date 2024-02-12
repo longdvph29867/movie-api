@@ -1,9 +1,10 @@
 import httpStatus from "http-status";
 import tokenService from "./token.service.js";
 import userService from "./user.service.js";
-import Token from "../models/token.model.js";
+import Token from "../models/Token.model.js";
 import ApiError from "../utils/ApiError.js";
 import { tokenTypes } from "../config/tokens.js";
+// import Token from "../models/token.model.js";
 
 const loginUserWithEmailAndPassword = async (email, password) => {
   const user = await userService.getUserByEmail(email);
