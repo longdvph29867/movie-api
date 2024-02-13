@@ -38,6 +38,14 @@ const deleteManycastInMovie = async (castId) => {
   return Movie.updateMany({ cast: castId }, { $pull: { cast: castId } });
 };
 
+const queryMovieTrailer = async () => {
+  const trailers = await Movie.find(
+    {},
+    { trailer: 1, name: 1, imgBanner: 1, language: 1 }
+  );
+  return trailers;
+};
+
 const movieService = {
   createMovie,
   queryMovies,
@@ -45,6 +53,7 @@ const movieService = {
   updateMovieById,
   deleteMovieById,
   deleteManycastInMovie,
+  queryMovieTrailer,
 };
 
 export default movieService;

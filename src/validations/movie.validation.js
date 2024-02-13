@@ -21,6 +21,10 @@ const getMovies = {
   query: Joi.object().keys({
     search: Joi.string(),
     sortBy: Joi.string(),
+    genre: Joi.string(),
+    cast: Joi.string(),
+    greater_time: Joi.string(),
+    lower_time: Joi.string(),
     limit: Joi.number().integer(),
     page: Joi.number().integer(),
   }),

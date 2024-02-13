@@ -12,10 +12,13 @@ import {
 
 const routerMovies = Router();
 routerMovies.get("/", validate(getMovies), moviesController.getAll);
+routerMovies.get("/trailer", moviesController.getAllTraler);
+
 routerMovies.get("/:id", validate(getMovie), moviesController.getDetail);
 routerMovies.post("/", validate(createMovie), moviesController.create);
 routerMovies.put("/:id", validate(updateMovie), moviesController.update);
 routerMovies.delete("/:id", validate(deleteMovie), moviesController.delete);
+
 export default routerMovies;
 
 /**
@@ -40,6 +43,16 @@ export default routerMovies;
  *         schema:
  *           type: string
  *         description: Movie name
+ *       - in: query
+ *         name: genre
+ *         schema:
+ *           type: string
+ *         description: Movie genre id
+ *       - in: query
+ *         name: cast
+ *         schema:
+ *           type: string
+ *         description: Movie cast id
  *       - in: query
  *         name: limit
  *         schema:
@@ -76,6 +89,21 @@ export default routerMovies;
  *     responses:
  *       '200':
  *         description: Successful response
+ *         content:
+ *           application/json:
+ *             example: {}
+ */
+
+/**
+ * @swagger
+ * /movies/trailer:
+ *   get:
+ *     summary: Get all trailer movies
+ *     description: Get all trailer movies.
+ *     tags: [Movies]
+ *     responses:
+ *       '200':
+ *         description: The list of the trailer movies
  *         content:
  *           application/json:
  *             example: {}

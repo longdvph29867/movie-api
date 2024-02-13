@@ -23,6 +23,9 @@ export const pickFilter = (object, keys) => {
       if (key === "lower_time") {
         filters.push({ runingTime: { $lte: Number(object[key]) } });
       }
+      if (key === "cast") {
+        filters.push({ cast: { $in: [object[key]] } });
+      }
     }
   });
 

@@ -11,6 +11,7 @@ class MoviesCotroller {
       const filter = pickFilter(req.query, [
         "search",
         "genre",
+        "cast",
         "greater_time",
         "lower_time",
       ]);
@@ -91,6 +92,16 @@ class MoviesCotroller {
       await actorService.deleteManyMovieInActor(req.params.id);
       await movieService.deleteMovieById(req.params.id);
       res.status(httpStatus.NO_CONTENT).send();
+    } catch (err) {
+      errorMessage(res, err);
+    }
+  }
+
+  async getAllTraler(req, res) {
+    console.log(123);
+    try {
+      const result = await movieService.queryMovieTrailer();
+      res.send(result);
     } catch (err) {
       errorMessage(res, err);
     }

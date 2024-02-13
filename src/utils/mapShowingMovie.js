@@ -98,3 +98,22 @@ export const mapListCinemaChain = (listChain, listBranch) => {
 
   return newListCinemaChain.filter((item) => item.listBranch);
 };
+
+export const mapPriceSeat = (seatList, bookedSeats, vipPrice, normalPrice) => {
+  return seatList.map((seat) => {
+    const booked = bookedSeats.includes(seat.id);
+    const price = seat.seatVip ? vipPrice : normalPrice;
+    return { ...seat._doc, price, booked };
+  });
+};
+
+export const mapBookedSeat = (bookedTicket) => {
+  let allSeats = [];
+
+  for (let booking of bookedTicket) {
+    for (let seat of booking.seats) {
+      allSeats.push(String(seat.seatId));
+    }
+  }
+  return allSeats;
+};

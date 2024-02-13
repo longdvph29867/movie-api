@@ -2,7 +2,7 @@ export const filter = (schema) => {
   schema.statics.filter = async function (filter, options) {
     // filter.active = true;
     let docsPromise = this.find(filter);
-    if (options.populate) {
+    if (options?.populate) {
       options.populate.split(",").forEach((populateOption) => {
         docsPromise = docsPromise.populate(
           populateOption
