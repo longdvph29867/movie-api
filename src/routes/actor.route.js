@@ -40,16 +40,6 @@ export default routerActor;
  *       - bearerAuth: []
  *     parameters:
  *       - in: query
- *         name: name
- *         schema:
- *           type: string
- *         description: User name
- *       - in: query
- *         name: role
- *         schema:
- *           type: string
- *         description: User role
- *       - in: query
  *         name: sortBy
  *         schema:
  *           type: string
