@@ -8,8 +8,8 @@ const createBooking = async (data) => {
 };
 
 const queryBookings = async (filter, options) => {
-  const users = await User.paginate(filter, options);
-  return users;
+  const bookings = await User.paginate(filter, options);
+  return bookings;
 };
 
 const getBookingByUserShowing = async (showing, user) => {
@@ -22,6 +22,21 @@ const getBookingById = async (id) => {
 
 const getBookingByShowing = async (showing) => {
   return Booking.find({ showing });
+};
+
+const getBookingByUser = async (user) => {
+  return Booking.find({ user }).populate({
+    path: "showing",
+    populate: [
+      {
+        path: "cinemaBranch",
+      },
+      {
+        path: "movie",
+        // select: "title name"
+      },
+    ],
+  });
 };
 
 const updateSeatBookingById = async (idBooking, seatsToAdd) => {
@@ -46,6 +61,7 @@ const bookingService = {
   createBooking,
   queryBookings,
   getBookingByUserShowing,
+  getBookingByUser,
   getBookingByShowing,
   getBookingById,
   updateSeatBookingById,
