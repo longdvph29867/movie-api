@@ -10,6 +10,7 @@ import routerCinemaChain from "./cinemaChain.route.js";
 import routerCinemaBranch from "./cinemaBranch.route.js";
 import routerShowing from "./showing.route.js";
 import routerBooking from "./booking.route.js";
+import routerComment from "./comment.route.js";
 
 const routes = Router();
 routes.use("/movies", routerMovies);
@@ -23,6 +24,7 @@ routes.use("/cinemachains", routerCinemaChain);
 routes.use("/cinemabranchs", routerCinemaBranch);
 routes.use("/showings", routerShowing);
 routes.use("/bookings", routerBooking);
+routes.use("/comments", routerComment);
 
 export default routes;
 
