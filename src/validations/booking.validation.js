@@ -10,6 +10,7 @@ const createBooking = {
       .items(
         Joi.object({
           seatId: Joi.string().custom(objectId).required(),
+          seatNumber: Joi.number().required(),
           price: Joi.number().required(),
         })
       )
@@ -18,19 +19,9 @@ const createBooking = {
   }),
 };
 
-const getUsers = {
+const getBookingByUser = {
   query: Joi.object().keys({
-    name: Joi.string(),
-    role: Joi.string(),
-    sortBy: Joi.string(),
-    limit: Joi.number().integer(),
-    page: Joi.number().integer(),
-  }),
-};
-
-const getUser = {
-  params: Joi.object().keys({
-    id: Joi.string().custom(objectId),
+    user: Joi.string().required(),
   }),
 };
 
@@ -40,4 +31,4 @@ const deleteBooking = {
   }),
 };
 
-export { createBooking, getUsers, getUser, deleteBooking };
+export { createBooking, getBookingByUser, deleteBooking };

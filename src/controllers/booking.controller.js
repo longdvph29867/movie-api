@@ -3,13 +3,42 @@ import httpStatus from "http-status";
 import errorMessage from "../config/error.js";
 import { pickOption } from "../utils/pick.js";
 import bookingService from "../services/booking.service.js";
+import showingService from "../services/showing.service.js";
 class BookingsCotroller {
   async getAll(req, res) {
     try {
-      const filter = pickOption(req.query, ["name", "role"]);
-      const options = pickOption(req.query, ["sortBy", "limit", "page"]);
-      const result = await userService.queryUsers(filter, options);
-      res.send(result);
+      const idUser = req.query.user;
+      const listTicket = await bookingService.getBookingByUser(idUser);
+      const data = listTicket.map((item) => {
+        const cinemaBranch = {
+          cinemaBranchName: item.showing.cinemaBranch.cinemaBranchName,
+          cinemaBranchCode: item.showing.cinemaBranch.cinemaBranchCode,
+          slug: item.showing.cinemaBranch.slug,
+          location: item.showing.cinemaBranch.location,
+        };
+        const movie = {
+          idMovie: item.showing.movie.id,
+          name: item.showing.movie.name,
+          poster: item.showing.movie.poster,
+          director: item.showing.movie.director,
+          imgBanner: item.showing.movie.imgBanner,
+        };
+        const seats = item.seats.map((seat) => {
+          return {
+            seatNumber: seat.seatNumber,
+            price: seat.price,
+          };
+        });
+        return {
+          cinemaBranch,
+          movie,
+          seats,
+          showTime: item.showing.showTime,
+          user: item.user,
+          bookingTime: item.bookingTime,
+        };
+      });
+      res.send(data);
     } catch (err) {
       errorMessage(res, err);
     }

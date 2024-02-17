@@ -1,20 +1,15 @@
 import httpStatus from "http-status";
 import errorMessage from "../config/error.js";
-import { pickOption } from "../utils/pick.js";
 import ApiError from "../utils/ApiError.js";
 import showingService from "../services/showing.service.js";
 import cinemaBranchService from "../services/cinema_branch.service.js";
 import {
-  mapBookedSeat,
   mapListCinemaBranch,
   mapListCinemaChain,
   mapListMovie,
-  mapPriceSeat,
 } from "../utils/mapShowingMovie.js";
 import movieService from "../services/movie.service.js";
 import cinemaChainService from "../services/cinema_chains.service.js";
-import seatService from "../services/seat.service.js";
-import bookingService from "../services/booking.service.js";
 class ShowingsCotroller {
   async getAll(req, res) {
     try {
@@ -31,22 +26,9 @@ class ShowingsCotroller {
       if (!showing) {
         throw new ApiError(httpStatus.NOT_FOUND, "Showing not found");
       }
-
-      const seats = await seatService.querySeats({}, {});
-
-      const bookedTickets = await bookingService.getBookingByShowing(
-        req.params.id
-      );
-      const bookedSeats = mapBookedSeat(bookedTickets);
       const data = {
         movie: showing.movie,
         cinemaBranch: showing.cinemaBranch,
-        seatList: mapPriceSeat(
-          seats,
-          bookedSeats,
-          showing.vipPrice,
-          showing.normalPrice
-        ),
         showTime: showing.showTime,
       };
 
