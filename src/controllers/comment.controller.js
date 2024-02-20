@@ -1,8 +1,5 @@
-import userService from "../services/user.service.js";
 import httpStatus from "http-status";
 import errorMessage from "../config/error.js";
-import { pickOption } from "../utils/pick.js";
-import ApiError from "../utils/ApiError.js";
 import commentService from "../services/comment.service.js";
 class CommentsController {
   async getCommentsByMovieId(req, res) {
@@ -17,8 +14,8 @@ class CommentsController {
 
   async create(req, res) {
     try {
-      const { commentId = null } = req.query;
-      const data = { ...req.body, parentCommentId: commentId };
+      const { parentCommentId = null } = req.body;
+      const data = { ...req.body, parentCommentId: parentCommentId };
       const comment = await commentService.createComment(data);
       res.status(httpStatus.CREATED).send(comment);
     } catch (err) {
@@ -28,8 +25,11 @@ class CommentsController {
 
   async update(req, res) {
     try {
-      const user = await commentService.updateComment(req.params.id, req.body);
-      res.send(user);
+      const comment = await commentService.updateComment(
+        req.params.id,
+        req.body
+      );
+      res.send(comment);
     } catch (err) {
       errorMessage(res, err);
     }

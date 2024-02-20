@@ -1,25 +1,26 @@
 import httpStatus from "http-status";
-import Comments from "../models/Comment.model.js";
+import Comment from "../models/Comment.model.js";
+import ApiError from "../utils/ApiError.js";
 
 const createComment = async (commentBody) => {
-  return await Comments.create(commentBody);
+  return await Comment.create(commentBody);
 };
 
 const getCommentByMovieId = async (movieId) => {
   // lấy các comments có moviesId bằng id của movies và có parentCommentId là null
-  const parentComment = await Comments.find({
+  const parentComment = await Comment.find({
     moviesId: movieId,
     parentCommentId: null,
   }).sort({ createdAt: "desc" });
   // hàm lấy các comment con có parentCommentId bằng id comment truyền vào
   const repliesComment = async (commentId) => {
     // lấy comments con từ db
-    const childComments = await Comments.find({
+    const childComment = await Comment.find({
       parentCommentId: commentId,
     }).sort({ createdAt: "asc" });
     const dataReplies = [];
     // dùng for of để lấy các comments
-    for (const comment of childComments) {
+    for (const comment of childComment) {
       // dùng đệ quy gọi lại chính nó
       const data = await repliesComment(comment._id);
       // push vào mảng
@@ -28,29 +29,39 @@ const getCommentByMovieId = async (movieId) => {
     return dataReplies;
   };
 
-  const dataComments = [];
+  const dataComment = [];
   // dùng for of để lấy các comments
   for (const comment of parentComment) {
     const data = await repliesComment(comment._id);
-    dataComments.push({ ...comment.toObject(), replies: data });
+    dataComment.push({ ...comment.toObject(), replies: data });
   }
-  return dataComments;
+  return dataComment;
 };
 
-const updateComment = async (commentId, commentBody) => {
-  return await Comments.updateOne({ _id: commentId }, commentBody);
+const getCommentById = async (id) => {
+  return Comment.findById(id);
+};
+
+const updateComment = async (commentId, updateBody) => {
+  const comment = await getCommentById(commentId);
+  if (!comment) {
+    throw new ApiError(httpStatus.NOT_FOUND, "Comment not found");
+  }
+  Object.assign(comment, updateBody);
+  await comment.save();
+  return comment;
 };
 
 const deleteComment = async (commentId) => {
-  const deletedCommentsChild = async (id) => {
-    const childComments = await Comments.find({ parentCommentId: id });
-    for (const childComment of childComments) {
-      await deletedCommentsChild(childComment._id);
+  const deletedCommentChild = async (id) => {
+    const childComment = await Comment.find({ parentCommentId: id });
+    for (const childComment of childComment) {
+      await deletedCommentChild(childComment._id);
     }
-    await Comments.deleteOne({ _id: id });
+    await Comment.deleteOne({ _id: id });
   };
 
-  deletedCommentsChild(commentId);
+  deletedCommentChild(commentId);
 };
 const commentService = {
   createComment,
