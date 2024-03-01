@@ -1,7 +1,7 @@
 import Seat from "../models/Seat.model.js";
 
 const querySeats = async (filter, options) => {
-  const users = await Seat.filter();
+  const users = await Seat.find().sort({ seatNumber: "asc" });
   return users;
 };
 
