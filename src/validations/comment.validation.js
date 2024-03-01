@@ -3,11 +3,11 @@ import { objectId } from "./custom.validation.js";
 
 const createComment = {
   body: Joi.object().keys({
-    moviesId: Joi.string().required(),
-    userId: Joi.string().required(),
+    moviesId: Joi.string().required().custom(objectId),
+    userId: Joi.string().required().custom(objectId),
     content: Joi.string().required(),
     like: Joi.number(),
-    parentCommentId: Joi.optional(),
+    parentCommentId: Joi.optional().custom(objectId),
   }),
 };
 const updateComment = {

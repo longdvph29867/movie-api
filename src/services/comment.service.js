@@ -2,7 +2,7 @@ import Comments from "../models/Comment.model.js";
 import mongoose from "mongoose";
 
 const createComment = async (commentBody) => {
-  return await Comments.create(commentBody);
+  return await Comment.create(commentBody);
 };
 
 const getCommentByMovieId = async (movieId) => {
@@ -30,20 +30,30 @@ const getCommentByMovieId = async (movieId) => {
   return comments;
 };
 
-const updateComment = async (commentId, commentBody) => {
-  return await Comments.updateOne({ _id: commentId }, commentBody);
+const getCommentById = async (id) => {
+  return Comment.findById(id);
+};
+
+const updateComment = async (commentId, updateBody) => {
+  const comment = await getCommentById(commentId);
+  if (!comment) {
+    throw new ApiError(httpStatus.NOT_FOUND, "Comment not found");
+  }
+  Object.assign(comment, updateBody);
+  await comment.save();
+  return comment;
 };
 
 const deleteComment = async (commentId) => {
-  const deletedCommentsChild = async (id) => {
-    const childComments = await Comments.find({ parentCommentId: id });
-    for (const childComment of childComments) {
-      await deletedCommentsChild(childComment._id);
+  const deletedCommentChild = async (id) => {
+    const childComment = await Comment.find({ parentCommentId: id });
+    for (const comment of childComment) {
+      await deletedCommentChild(comment._id);
     }
-    await Comments.deleteOne({ _id: id });
+    await Comment.deleteOne({ _id: id });
   };
 
-  deletedCommentsChild(commentId);
+  deletedCommentChild(commentId);
 };
 const commentService = {
   createComment,

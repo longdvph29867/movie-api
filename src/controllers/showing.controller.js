@@ -13,7 +13,9 @@ import cinemaChainService from "../services/cinema_chains.service.js";
 class ShowingsCotroller {
   async getAll(req, res) {
     try {
-      const showingList = await showingService.queryShowings({}, {});
+      const options = { populate: "movie" };
+      const showingList = await showingService.queryShowings({}, options);
+
       res.send(showingList);
     } catch (err) {
       errorMessage(res, err);

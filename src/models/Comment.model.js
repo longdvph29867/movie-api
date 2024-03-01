@@ -19,11 +19,11 @@ const commentSchema = new mongoose.Schema(
   },
   {
     collection: "Comments",
-    versionKey: false,
     timestamps: true,
+    verionKey: false,
   }
 );
 
-const Comments = mongoose.model("Comments", commentSchema);
+const Comment = mongoose.model("Comments", commentSchema);
 
-export default Comments;
+export default Comment;
