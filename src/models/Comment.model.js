@@ -10,6 +10,7 @@ const commentSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "Users",
     },
+    like: { type: Number, default: 0 },
     content: { type: String, maxLength: 255 },
     parentCommentId: {
       type: mongoose.Schema.Types.ObjectId,
@@ -19,7 +20,7 @@ const commentSchema = new mongoose.Schema(
   {
     collection: "Comments",
     timestamps: true,
-    verionKey: false,
+    versionKey: false,
   }
 );
 
