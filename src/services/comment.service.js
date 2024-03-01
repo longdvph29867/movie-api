@@ -1,33 +1,63 @@
-import Comments from "../models/Comment.model.js";
-import mongoose from "mongoose";
+import Comment from "../models/Comment.model.js";
 
 const createComment = async (commentBody) => {
   return await Comment.create(commentBody);
 };
 
 const getCommentByMovieId = async (movieId) => {
-  // lấy các comments có moviesId bằng id của movies và có parentCommentId là null
-  const ObjectId = mongoose.Types.ObjectId;
-  const comments = await Comments.aggregate([
-    {
-      $match: {
-        moviesId: new ObjectId(movieId),
-        parentCommentId: null,
+  const parentComment = await Comment.find({
+    moviesId: movieId,
+    parentCommentId: null,
+  })
+    .sort({ createdAt: "desc" })
+    .select("_id userId like content parentCommentId createdAt")
+    .populate([
+      {
+        path: "userId",
+        select: { id: 1, name: 1 },
       },
-    },
-    {
-      $graphLookup: {
-        from: "Comments",
-        startWith: "$_id",
-        connectFromField: "_id",
-        connectToField: "parentCommentId",
-        as: "replies",
-        maxDepth: 10,
-      },
-    },
-    { $sort: { createdAt: 1 } },
-  ]);
-  return comments;
+    ]);
+  // hàm lấy các comment con có parentCommentId bằng id comment truyền vào
+  const repliesComment = async (commentId) => {
+    // lấy comments con từ db
+    const childComments = await Comment.find({
+      parentCommentId: commentId,
+    })
+      .sort({ createdAt: "asc" })
+      .select("_id userId like content parentCommentId createdAt")
+      .populate([
+        {
+          path: "userId",
+          select: { id: 1, name: 1 },
+        },
+        {
+          path: "parentCommentId",
+          select: { _id: 0, userId: 1 },
+          populate: {
+            path: "userId",
+            select: { id: 1, name: 1 },
+          },
+        },
+      ]);
+    const dataReplies = [];
+    // dùng for of để lấy các comments
+    for (const comment of childComments) {
+      dataReplies.push({ ...comment.toObject() });
+      // dùng đệ quy gọi lại chính nó
+      const data = await repliesComment(comment._id);
+      // push vào mảng
+      dataReplies.push(...data);
+    }
+    return dataReplies;
+  };
+
+  const dataComments = [];
+  // dùng for of để lấy các comments
+  for (const comment of parentComment) {
+    const data = await repliesComment(comment._id);
+    dataComments.push({ ...comment.toObject(), replies: data });
+  }
+  return dataComments;
 };
 
 const getCommentById = async (id) => {
