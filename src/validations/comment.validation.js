@@ -6,6 +6,7 @@ const createComment = {
     moviesId: Joi.string().required(),
     userId: Joi.string().required(),
     content: Joi.string().required(),
+    like: Joi.number(),
     parentCommentId: Joi.optional(),
   }),
 };
