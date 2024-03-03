@@ -49,7 +49,7 @@
   "imgBanner": "https://www.cgv.vn/media/catalog/product/cache/1/image/1800x/71252117777b696995f01934522c402d/n/b/nbn_main_thumb.jpg",
   "active": true,
   "createdAt": {
-    "$date": "2023-08-22T02:14:50.872Z"
+    "$date": "2023-06-22T02:14:50.872Z"
   },
   "updatedAt": {
     "$date": "2024-02-10T02:55:54.985Z"
@@ -785,7 +785,17 @@
   "name": "DINH THỰ MA ÁM",
   "poster": "https://res.cloudinary.com/dji6cj8xp/image/upload/v1704521591/movies/posster/thtdcwnvm2ztk3tyumkf.jpg",
   "director": "Justin Simien",
-  "cast": "Jamie Lee Curtis, Owen Wilson, Rosario Dawson",
+  "cast": [
+    {
+      "$oid": "65c6e868749e0bbb5d6c2ecc"
+    },
+    {
+      "$oid": "65c6e868749e0bbb5d6c2ed2"
+    },
+    {
+      "$oid": "65c6e869749e0bbb5d6c2ed8"
+    }
+  ],
   "genre": [
     {
       "$oid": "659c0fea4c103a4ca851d04f"
@@ -807,7 +817,7 @@
     "$date": "2023-08-16T02:14:50.872Z"
   },
   "updatedAt": {
-    "$date": "2023-08-16T02:59:10.083Z"
+    "$date": "2024-02-13T02:54:01.221Z"
   }
 },
 {
@@ -1820,5 +1830,96 @@
   },
   "updatedAt": {
     "$date": "2024-02-10T03:18:45.586Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "name": "Mai",
+  "poster": "https://iguov8nhvyobj.vcdn.cloud/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/m/a/mai_teaser_poster_digital_1_.jpg",
+  "director": "Trấn Thành",
+  "cast": [
+    {
+      "$oid": "65e1e45db17e6cbec843c0d3"
+    },
+    {
+      "$oid": "65c6e5fb063d725a64a01fc3"
+    },
+    {
+      "$oid": "65c6da043565b716f5de20a2"
+    },
+    {
+      "$oid": "65c6e5b7063d725a64a01f8c"
+    }
+  ],
+  "genre": [
+    {
+      "$oid": "659c105e4c103a4ca851d061"
+    },
+    {
+      "$oid": "659c10694c103a4ca851d064"
+    }
+  ],
+  "runingTime": 131,
+  "language": "Tiếng Việt",
+  "country": "Việt Nam",
+  "rated": "0",
+  "trailer": "https://www.youtube.com/watch?v=HXWRTGbhb4U",
+  "imgBanner": "https://i.ytimg.com/vi/EX6clvId19s/maxresdefault.jpg",
+  "description": "MAI xoay quanh câu chuyện về cuộc đời của một người phụ nữ cùng tên với bộ phim. Phương Anh Đào tạo ấn tượng mạnh với cái nhìn tĩnh lặng, xuyên thấu, đặc biệt, trên bờ môi nữ diễn viên là hình ảnh cô đang nằm nghiêng trên mặt nước...”",
+  "active": true,
+  "createdAt": {
+    "$date": "2023-05-02T14:21:16.730Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T14:21:20.552Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "name": "Đào, phở và piano",
+  "poster": "https://upload.wikimedia.org/wikipedia/vi/2/29/%C3%81p_ph%C3%ADch_%C4%90%C3%A0o%2C_ph%E1%BB%9F_v%C3%A0_piano.jpg",
+  "director": "Phi Tiến Sơn",
+  "cast": [
+    {
+      "$oid": "65e1e6f43fdbf667f171d3ce"
+    },
+    {
+      "$oid": "65e1e6f53fdbf667f171d3d4"
+    },
+    {
+      "$oid": "65e1e6f63fdbf667f171d3da"
+    },
+    {
+      "$oid": "65e1e6f73fdbf667f171d3e0"
+    },
+    {
+      "$oid": "65e1e6f83fdbf667f171d3e6"
+    }
+  ],
+  "genre": [
+    {
+      "$oid": "659c105e4c103a4ca851d061"
+    },
+    {
+      "$oid": "659c10694c103a4ca851d064"
+    }
+  ],
+  "runingTime": 99,
+  "language": "Tiếng Việt",
+  "country": "Việt Nam",
+  "rated": "0",
+  "trailer": "https://www.youtube.com/watch?v=qn1t_biQigc",
+  "imgBanner": "https://images2.thanhnien.vn/528068263637045248/2024/2/19/img1159-1-1708349805520998412534.jpg",
+  "description": "Đào, phở và piano là một bộ phim điện ảnh chiến tranh tuyên truyền Việt Nam năm 2023, thuộc thể loại sử thi lãng mạn do Phi Tiến Sơn làm biên kịch, đạo diễn. Phim thực hiện bởi Công ty Cổ phần Phim truyện...”",
+  "active": true,
+  "createdAt": {
+    "$date": "2023-05-01T14:32:19.788Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T14:32:25.967Z"
   }
 }]

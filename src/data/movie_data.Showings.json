@@ -15402,4 +15402,2644 @@
   "vipPrice": 95000,
   "normalPrice": 70000,
   "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7a6"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-06T12:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7a7"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-07T21:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7a8"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-09T13:00:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7a9"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-09T14:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7aa"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-05T09:00:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7ab"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-07T14:00:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7ac"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-07T18:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7ad"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-06T12:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7ae"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-08T12:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7af"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-10T17:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7b0"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-06T09:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7b1"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-06T19:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7b2"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-08T09:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7b3"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-10T10:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7b4"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-10T19:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7b5"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-06T21:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7b6"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-08T12:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7b7"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-09T16:00:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7b8"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-10T14:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7b9"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-10T17:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7ba"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-11T10:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7bb"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862706515c40bc83a2532"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-08T09:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7bc"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862706515c40bc83a2532"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-08T17:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7bd"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862706515c40bc83a2532"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-08T21:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7be"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862706515c40bc83a2532"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-10T21:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7bf"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862706515c40bc83a2532"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-11T18:00:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7c0"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862706515c40bc83a2532"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-08T11:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7c1"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862706515c40bc83a2532"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-08T17:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7c2"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862706515c40bc83a2532"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-10T14:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7c3"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862706515c40bc83a2532"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-10T19:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7c4"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862706515c40bc83a2532"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-05T13:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7c5"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862706515c40bc83a2532"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-06T19:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7c6"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862706515c40bc83a2532"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-08T11:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7c7"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862706515c40bc83a2532"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-10T10:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7c8"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-05T09:00:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7c9"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-06T10:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7ca"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-07T10:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7cb"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-08T15:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7cc"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-06T18:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7cd"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-07T21:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7ce"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-08T14:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7cf"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-08T21:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7d0"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-09T19:00:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7d1"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-10T13:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7d2"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-05T10:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7d3"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-10T19:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7d4"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-10T20:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7d5"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-11T15:00:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7d6"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-11T21:00:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7d7"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-05T12:00:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7d8"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-07T15:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7d9"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-09T10:00:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7da"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-05T12:00:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7db"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-06T21:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7dc"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-09T16:00:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7dd"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-09T17:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7de"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-07T21:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7df"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-08T21:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7e0"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-11T10:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7e1"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-07T09:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7e2"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-08T14:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7e3"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-08T17:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7e4"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-09T14:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7e5"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-10T14:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7e6"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-10T20:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7e7"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-06T16:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7e8"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-07T11:00:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7e9"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-08T14:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7ea"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-08T18:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7eb"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-11T10:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7ec"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-05T09:00:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7ed"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-09T14:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7ee"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-11T18:00:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7ef"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-05T09:00:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7f0"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-05T15:00:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7f1"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-07T17:00:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7f2"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-11T10:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7f3"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-11T15:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7f4"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-11T16:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7f5"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-05T16:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7f6"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-06T10:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7f7"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-06T13:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7f8"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-06T16:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7f9"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-10T20:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7fa"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-11T19:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7fb"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-05T16:30:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7fc"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-08T12:45:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1ed320c143ac407c3f7fd"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e6f33fdbf667f171d3ca"
+  },
+  "showTime": "2024-02-10T19:15:00Z",
+  "vipPrice": 50000,
+  "normalPrice": 45000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f800"
+  },
+  "cinemaBranch": {
+    "$oid": "65c859996515c40bc83a24ab"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-06T12:15:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f801"
+  },
+  "cinemaBranch": {
+    "$oid": "65c859996515c40bc83a24ab"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-07T21:30:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f802"
+  },
+  "cinemaBranch": {
+    "$oid": "65c859db6515c40bc83a24ae"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-09T13:00:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f803"
+  },
+  "cinemaBranch": {
+    "$oid": "65c859db6515c40bc83a24ae"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-09T14:30:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f804"
+  },
+  "cinemaBranch": {
+    "$oid": "65c859db6515c40bc83a24ae"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-05T09:00:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f805"
+  },
+  "cinemaBranch": {
+    "$oid": "65c859fa6515c40bc83a24b1"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-07T14:00:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f806"
+  },
+  "cinemaBranch": {
+    "$oid": "65c859fa6515c40bc83a24b1"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-07T18:30:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f807"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85a176515c40bc83a24b4"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-06T12:15:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f808"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85a176515c40bc83a24b4"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-08T12:15:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f809"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85a456515c40bc83a24b7"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-10T17:45:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f80a"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85a456515c40bc83a24b7"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-06T09:15:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f80b"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85aa56515c40bc83a24c0"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-06T19:45:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f80c"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85aa56515c40bc83a24c0"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-08T09:45:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f80d"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85b356515c40bc83a24cc"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-10T10:15:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f80e"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85b356515c40bc83a24cc"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-10T19:15:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f80f"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85b696515c40bc83a24d2"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-06T21:15:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f810"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85b696515c40bc83a24d2"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-08T12:45:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f811"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85b816515c40bc83a24d5"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-09T16:00:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f812"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85b816515c40bc83a24d5"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-10T14:45:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f813"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85ba86515c40bc83a24d8"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-10T17:45:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f814"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85ba86515c40bc83a24d8"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-11T10:30:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f815"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85ba86515c40bc83a24d8"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-08T09:45:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f816"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85bbc6515c40bc83a24db"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-08T17:15:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f817"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85bbc6515c40bc83a24db"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-08T21:45:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f818"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85bbc6515c40bc83a24db"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-10T21:45:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f819"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85bd96515c40bc83a24de"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-11T18:00:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f81a"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85bd96515c40bc83a24de"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-08T11:15:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f81b"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85bf46515c40bc83a24e1"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-08T17:15:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f81c"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85bf46515c40bc83a24e1"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-10T14:45:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f81d"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85bf46515c40bc83a24e1"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-10T19:15:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f81e"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85c2e6515c40bc83a24e7"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-05T13:30:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f81f"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85c2e6515c40bc83a24e7"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-06T19:45:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f820"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85c436515c40bc83a24ea"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-08T11:15:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f821"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85c436515c40bc83a24ea"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-10T10:15:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f822"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85c586515c40bc83a24ed"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-05T09:00:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f823"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85c586515c40bc83a24ed"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-06T10:45:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f824"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85c586515c40bc83a24ed"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-07T10:45:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f825"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85cf26515c40bc83a24f0"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-08T15:45:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f826"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85cf26515c40bc83a24f0"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-06T18:15:00Z",
+  "vipPrice": 85000,
+  "normalPrice": 65000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f827"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85d376515c40bc83a24f3"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-07T21:30:00Z",
+  "vipPrice": 85000,
+  "normalPrice": 65000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f828"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85d376515c40bc83a24f3"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-08T14:15:00Z",
+  "vipPrice": 85000,
+  "normalPrice": 65000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f829"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85d376515c40bc83a24f3"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-08T21:45:00Z",
+  "vipPrice": 85000,
+  "normalPrice": 65000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f82a"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85d526515c40bc83a24f6"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-09T19:00:00Z",
+  "vipPrice": 85000,
+  "normalPrice": 65000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f82b"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85d526515c40bc83a24f6"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-10T13:15:00Z",
+  "vipPrice": 85000,
+  "normalPrice": 65000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f82c"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85d656515c40bc83a24f9"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-05T10:30:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f82d"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85d656515c40bc83a24f9"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-10T19:15:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f82e"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85d7a6515c40bc83a24fc"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-10T20:15:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f82f"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85d7a6515c40bc83a24fc"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-11T15:00:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f830"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85d8f6515c40bc83a24ff"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-11T21:00:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f831"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85d8f6515c40bc83a24ff"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-05T12:00:00Z",
+  "vipPrice": 85000,
+  "normalPrice": 65000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f832"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85da46515c40bc83a2502"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-07T15:30:00Z",
+  "vipPrice": 85000,
+  "normalPrice": 65000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f833"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85da46515c40bc83a2502"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-09T10:00:00Z",
+  "vipPrice": 85000,
+  "normalPrice": 65000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f834"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85da46515c40bc83a2502"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-05T12:00:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f835"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85dba6515c40bc83a2505"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-06T21:15:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f836"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85dba6515c40bc83a2505"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-09T16:00:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f837"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85f1e6515c40bc83a250b"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-09T17:30:00Z",
+  "vipPrice": 80000,
+  "normalPrice": 60000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f838"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85f1e6515c40bc83a250b"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-07T21:45:00Z",
+  "vipPrice": 85000,
+  "normalPrice": 65000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f839"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85f316515c40bc83a250e"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-08T21:45:00Z",
+  "vipPrice": 85000,
+  "normalPrice": 65000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f83a"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85f316515c40bc83a250e"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-11T10:30:00Z",
+  "vipPrice": 85000,
+  "normalPrice": 65000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f83b"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85f476515c40bc83a2511"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-07T09:30:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f83c"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85f476515c40bc83a2511"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-08T14:15:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f83d"
+  },
+  "cinemaBranch": {
+    "$oid": "65c85f476515c40bc83a2511"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-08T17:15:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f83e"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8600c6515c40bc83a2517"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-09T14:30:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f83f"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8600c6515c40bc83a2517"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-10T14:45:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f840"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8601f6515c40bc83a251a"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-10T20:45:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f841"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8601f6515c40bc83a251a"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-06T16:45:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f842"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8603e6515c40bc83a251d"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-07T11:00:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f843"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8603e6515c40bc83a251d"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-08T14:15:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f844"
+  },
+  "cinemaBranch": {
+    "$oid": "65c860b96515c40bc83a2520"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-08T18:45:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f845"
+  },
+  "cinemaBranch": {
+    "$oid": "65c860b96515c40bc83a2520"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-11T10:30:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f846"
+  },
+  "cinemaBranch": {
+    "$oid": "65c860d86515c40bc83a2523"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-05T09:00:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f847"
+  },
+  "cinemaBranch": {
+    "$oid": "65c860d86515c40bc83a2523"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-09T14:30:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f848"
+  },
+  "cinemaBranch": {
+    "$oid": "65c860d86515c40bc83a2523"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-11T18:00:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f849"
+  },
+  "cinemaBranch": {
+    "$oid": "65c861676515c40bc83a2529"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-05T09:00:00Z",
+  "vipPrice": 85000,
+  "normalPrice": 65000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f84a"
+  },
+  "cinemaBranch": {
+    "$oid": "65c861676515c40bc83a2529"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-05T15:00:00Z",
+  "vipPrice": 85000,
+  "normalPrice": 65000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f84b"
+  },
+  "cinemaBranch": {
+    "$oid": "65c861916515c40bc83a252c"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-07T17:00:00Z",
+  "vipPrice": 85000,
+  "normalPrice": 65000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f84c"
+  },
+  "cinemaBranch": {
+    "$oid": "65c861916515c40bc83a252c"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-11T10:30:00Z",
+  "vipPrice": 85000,
+  "normalPrice": 65000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f84d"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-11T15:30:00Z",
+  "vipPrice": 85000,
+  "normalPrice": 65000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f84e"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-11T16:30:00Z",
+  "vipPrice": 85000,
+  "normalPrice": 65000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f84f"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8624c6515c40bc83a252f"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-05T16:30:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f850"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862706515c40bc83a2532"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-06T10:45:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f851"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862706515c40bc83a2532"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-06T13:45:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f852"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-06T16:45:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f853"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-10T20:45:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f854"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-11T19:30:00Z",
+  "vipPrice": 105000,
+  "normalPrice": 75000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f855"
+  },
+  "cinemaBranch": {
+    "$oid": "65c862866515c40bc83a2535"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-05T16:30:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f856"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-08T12:45:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "65e1f08d0c143ac407c3f857"
+  },
+  "cinemaBranch": {
+    "$oid": "65c8629d6515c40bc83a2538"
+  },
+  "movie": {
+    "$oid": "65e1e45cb17e6cbec843c0cf"
+  },
+  "showTime": "2024-02-10T19:15:00Z",
+  "vipPrice": 95000,
+  "normalPrice": 70000,
+  "active": true
 }]

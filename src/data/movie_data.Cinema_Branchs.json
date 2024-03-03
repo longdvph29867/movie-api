@@ -1,23 +1,5 @@
 [{
   "_id": {
-    "$oid": "65c83edf57cc1ba70a824494"
-  },
-  "cinemaBranchName": "String",
-  "cinemaBranchCode": "String",
-  "slug": "string",
-  "location": "String",
-  "cinema_chain_id": {
-    "$oid": "65c6daf7e8cb7057aa907773"
-  },
-  "createdAt": {
-    "$date": "2024-02-11T03:28:31.317Z"
-  },
-  "updatedAt": {
-    "$date": "2024-02-11T03:28:31.317Z"
-  }
-},
-{
-  "_id": {
     "$oid": "65c859996515c40bc83a24ab"
   },
   "cinemaBranchName": "CGV Vincom Center Bà Triệu",

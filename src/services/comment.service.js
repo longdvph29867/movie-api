@@ -1,7 +1,22 @@
 import Comment from "../models/Comment.model.js";
 
 const createComment = async (commentBody) => {
-  return await Comment.create(commentBody);
+  const comment = await Comment.create(commentBody);
+  await comment.populate([
+    {
+      path: "userId",
+      select: { id: 1, name: 1 },
+    },
+    {
+      path: "parentCommentId",
+      select: { _id: 0, userId: 1 },
+      populate: {
+        path: "userId",
+        select: { id: 1, name: 1 },
+      },
+    },
+  ]);
+  return comment;
 };
 
 const getCommentByMovieId = async (movieId) => {
