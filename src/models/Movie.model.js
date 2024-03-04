@@ -27,7 +27,7 @@ const moviesSchema = new mongoose.Schema(
         ref: "Genres",
       },
     ],
-    runingTime: {
+    runningTime: {
       type: Number,
       maxLength: 255,
     },

@@ -26,11 +26,18 @@ export const paginate = (schema) => {
     let docsPromise = this.find(filter).sort(sort).skip(skip).limit(limit);
     if (options.populate) {
       options.populate.split(",").forEach((populateOption) => {
+        let select = "";
+        if (populateOption === "cast") {
+          select = "id name";
+        } else if (populateOption === "genre") {
+          select = "id genreName genreSlug";
+        }
         docsPromise = docsPromise.populate(
           populateOption
             .split(".")
             .reverse()
-            .reduce((a, b) => ({ path: b, populate: a }))
+            .reduce((a, b) => ({ path: b, populate: a })),
+          select
         );
       });
     }

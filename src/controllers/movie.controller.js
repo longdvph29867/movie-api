@@ -15,9 +15,8 @@ class MoviesCotroller {
         "greater_time",
         "lower_time",
       ]);
-      console.log(filter);
       const options = pickOption(req.query, ["sortBy", "limit", "page"]);
-      options.populate = "genre";
+      options.populate = "genre,cast";
       const result = await movieService.queryMovies(filter, options);
       res.send(result);
     } catch (err) {

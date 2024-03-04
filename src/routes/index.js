@@ -72,7 +72,7 @@ export default routes;
  *           type: string
  *         genre:
  *           type: [string]
- *         runingTime:
+ *         runningTime:
  *           type: number
  *         language:
  *           type: string
@@ -87,7 +87,7 @@ export default routes;
  *         director: director
  *         cast: cast
  *         genre: [5ebac534954b54139806c112]
- *         runingTime: 100
+ *         runningTime: 100
  *         language: English
  *         trailer: url
  *         imgBanner: url

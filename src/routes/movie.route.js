@@ -146,7 +146,7 @@ export default routerMovies;
  *                 type: string
  *               cast:
  *                 type: string
- *               runingTime:
+ *               runningTime:
  *                 type: number
  *               language:
  *                 type: string
@@ -164,7 +164,7 @@ export default routerMovies;
  *             director: "String"
  *             genre: [id_genre]
  *             cast: [name_actor]
- *             runingTime: 0
+ *             runningTime: 0
  *             language: "String"
  *             country: "String"
  *             trailer: "String"
@@ -220,7 +220,7 @@ export default routerMovies;
  *                 type: string
  *               cast:
  *                 type: string
- *               runingTime:
+ *               runningTime:
  *                 type: number
  *               language:
  *                 type: string
@@ -238,7 +238,7 @@ export default routerMovies;
  *             director: "String"
  *             genre: [id_genre]
  *             cast: [name_actor]
- *             runingTime: 0
+ *             runningTime: 0
  *             language: "String"
  *             country: "String"
  *             trailer: "String"

@@ -18,10 +18,10 @@ export const pickFilter = (object, keys) => {
         filters.push({ name: { $regex: object[key], $options: "i" } });
       }
       if (key === "greater_time") {
-        filters.push({ runingTime: { $gte: Number(object[key]) } });
+        filters.push({ runningTime: { $gte: Number(object[key]) } });
       }
       if (key === "lower_time") {
-        filters.push({ runingTime: { $lte: Number(object[key]) } });
+        filters.push({ runningTime: { $lte: Number(object[key]) } });
       }
       if (key === "cast") {
         filters.push({ cast: { $in: [object[key]] } });
