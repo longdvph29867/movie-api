@@ -12,7 +12,10 @@ const queryMovies = async (filter, options) => {
 };
 
 const getMovieById = async (id) => {
-  return Movie.findById(id).populate("genre");
+  return Movie.findById(id).populate([
+    { path: "cast", select: "id name" },
+    { path: "genre", select: "id genreName genreSlug" },
+  ]);
 };
 
 const updateMovieById = async (movieId, updateBody) => {
