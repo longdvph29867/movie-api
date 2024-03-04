@@ -9,7 +9,7 @@ export const paginate = (schema) => {
       });
       sort = sortingCriteria.join(" ");
     } else {
-      sort = "createdAt";
+      sort = { createdAt: -1 };
     }
 
     const limit =
