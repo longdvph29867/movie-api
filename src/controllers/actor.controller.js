@@ -10,6 +10,7 @@ class ActorsCotroller {
     try {
       const filter = pickOption(req.query, ["name"]);
       const options = pickOption(req.query, ["sortBy", "limit", "page"]);
+      options.sortBy = "createdAt:asc";
       const result = await actorService.queryActors(filter, options);
       res.send(result);
     } catch (err) {
