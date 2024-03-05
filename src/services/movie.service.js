@@ -43,7 +43,7 @@ const deleteManycastInMovie = async (castId) => {
 
 const queryMovieTrailer = async () => {
   const trailers = await Movie.find(
-    {},
+    { active: true },
     { trailer: 1, name: 1, imgBanner: 1, language: 1 }
   );
   return trailers;
