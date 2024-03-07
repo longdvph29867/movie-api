@@ -50,10 +50,10 @@
   "description2": "lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua obcaecati ipsa assumenda...",
   "active": true,
   "createdAt": {
-    "$date": "2023-06-22T02:14:50.872Z"
+    "$date": "2024-02-27T02:55:54.985Z"
   },
   "updatedAt": {
-    "$date": "2024-02-10T02:55:54.985Z"
+    "$date": "2024-02-27T02:55:54.985Z"
   }
 },
 {
@@ -93,10 +93,10 @@
   "description2": "lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua obcaecati ipsa assumenda...",
   "active": true,
   "createdAt": {
-    "$date": "2023-08-21T02:14:50.872Z"
+    "$date": "2024-02-26T02:14:50.872Z"
   },
   "updatedAt": {
-    "$date": "2024-02-10T02:57:00.687Z"
+    "$date": "2024-02-26T02:57:00.687Z"
   }
 },
 {
@@ -452,7 +452,7 @@
   "language": "Tiếng Anh - Phụ đề Tiếng Việt",
   "rated": 10,
   "trailer": "https://www.youtube.com/watch?v=gtEaR_VMpHM",
-  "imgBanner": "link",
+  "imgBanner": "https://i.ytimg.com/vi/gtEaR_VMpHM/maxresdefault.jpg",
   "description2": "lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua obcaecati ipsa assumenda...",
   "active": true,
   "createdAt": {
@@ -495,7 +495,7 @@
   "language": "Tiếng Việt - Phụ đề Tiếng Anh",
   "rated": 9,
   "trailer": "1234567890",
-  "imgBanner": "https://i.ytimg.com/vi/gtEaR_VMpHM/maxresdefault.jpg",
+  "imgBanner": "https://i.ytimg.com/vi/OobBWy3avUo/maxresdefault.jpg",
   "description2": "lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua obcaecati ipsa assumenda...",
   "active": true,
   "createdAt": {
@@ -1872,10 +1872,10 @@
   "description2": "lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua obcaecati ipsa assumenda...",
   "active": true,
   "createdAt": {
-    "$date": "2023-11-28T02:14:50.872Z"
+    "$date": "2024-02-28T02:14:50.872Z"
   },
   "updatedAt": {
-    "$date": "2024-02-10T03:18:45.586Z"
+    "$date": "2024-03-01T14:21:20.552Z"
   }
 },
 {
@@ -1916,7 +1916,7 @@
   "description": "MAI xoay quanh câu chuyện về cuộc đời của một người phụ nữ cùng tên với bộ phim. Phương Anh Đào tạo ấn tượng mạnh với cái nhìn tĩnh lặng, xuyên thấu, đặc biệt, trên bờ môi nữ diễn viên là hình ảnh cô đang nằm nghiêng trên mặt nước...”",
   "active": true,
   "createdAt": {
-    "$date": "2023-05-02T14:21:16.730Z"
+    "$date": "2024-03-01T14:21:20.552Z"
   },
   "updatedAt": {
     "$date": "2024-03-01T14:21:20.552Z"
@@ -1963,9 +1963,85 @@
   "description": "Đào, phở và piano là một bộ phim điện ảnh chiến tranh tuyên truyền Việt Nam năm 2023, thuộc thể loại sử thi lãng mạn do Phi Tiến Sơn làm biên kịch, đạo diễn. Phim thực hiện bởi Công ty Cổ phần Phim truyện...”",
   "active": true,
   "createdAt": {
-    "$date": "2023-05-01T14:32:19.788Z"
+    "$date": "2024-03-01T14:32:25.967Z"
   },
   "updatedAt": {
     "$date": "2024-03-01T14:32:25.967Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65e5dd53d020b590df445e0d"
+  },
+  "name": "Seth Hawkins",
+  "poster": "https://res.cloudinary.com/dji6cj8xp/image/upload/v1709563217/2_3-1709563217577.jpeg.jpg",
+  "director": "Voluptas repudiandae",
+  "cast": [
+    {
+      "$oid": "65e5dd54d020b590df445e11"
+    }
+  ],
+  "genre": [
+    {
+      "$oid": "659c11664c103a4ca851d081"
+    }
+  ],
+  "runningTime": 12333,
+  "language": "Officiis quibusdam i",
+  "country": "Consequatur consequa",
+  "rated": "0",
+  "trailer": "Cillum nostrum aliqu",
+  "imgBanner": "https://res.cloudinary.com/dji6cj8xp/image/upload/v1709563218/2_1-1709563217655.png.png",
+  "description": "Consectetur non qui",
+  "active": false,
+  "createdAt": {
+    "$date": "2024-03-04T14:40:19.784Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-04T14:48:29.933Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65e5e74324cc6f60d8e9d169"
+  },
+  "name": "Zelenia Cummings",
+  "poster": "https://res.cloudinary.com/dji6cj8xp/image/upload/v1709566902/3_1-1709566902377.png.png",
+  "director": "Dolor qui adipisicin",
+  "cast": [
+    {
+      "$oid": "65e5ec6424cc6f60d8e9d1bb"
+    },
+    {
+      "$oid": "65e5ec6524cc6f60d8e9d1c1"
+    }
+  ],
+  "genre": [
+    {
+      "$oid": "659c11664c103a4ca851d081"
+    },
+    {
+      "$oid": "659c110c4c103a4ca851d07e"
+    },
+    {
+      "$oid": "659c10dd4c103a4ca851d075"
+    },
+    {
+      "$oid": "659c10014c103a4ca851d052"
+    }
+  ],
+  "runningTime": 123,
+  "language": "Do dolores fugit se",
+  "country": "Quae perspiciatis a, 12222",
+  "rated": "0",
+  "trailer": "Recusandae Quisquam",
+  "imgBanner": "https://res.cloudinary.com/dji6cj8xp/image/upload/v1709565761/2_3-1709565760529.jpeg.jpg",
+  "description": "Officia est iure ut ",
+  "active": true,
+  "createdAt": {
+    "$date": "2024-03-04T15:22:43.014Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-04T15:44:38.564Z"
   }
 }]
