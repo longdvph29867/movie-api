@@ -30,6 +30,7 @@ class BookingsCotroller {
           };
         });
         return {
+          idBooking: item._id,
           cinemaBranch,
           movie,
           seats,

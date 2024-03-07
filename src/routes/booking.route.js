@@ -1,5 +1,4 @@
 import { Router } from "express";
-import usersController from "../controllers/user.controller.js";
 import validate from "../middlewares/validate.js";
 import bookingController from "../controllers/booking.controller.js";
 import {
@@ -18,7 +17,7 @@ export default routerBooking;
  * @swagger
  * tags:
  *   name: Booking
- *   description: API operations related to user
+ *   description: API operations related to booking
  */
 
 /**
@@ -98,7 +97,7 @@ export default routerBooking;
  * @swagger
  * /bookings/{id}:
  *   delete:
- *     summary: Delete a users
+ *     summary: Delete a booking
  *     tags: [Booking]
  *     security:
  *       - bearerAuth: []
@@ -106,7 +105,7 @@ export default routerBooking;
  *       - in: path
  *         name: id
  *         required: true
- *         description: The ID of the users to be deleted
+ *         description: The ID of the booking to be deleted
  *     responses:
  *       '200':
  *         description: Successful response
