@@ -39,6 +39,7 @@ const actorSchema = new mongoose.Schema(
     active: {
       type: Boolean,
       default: true,
+      private: true,
     },
   },
   {

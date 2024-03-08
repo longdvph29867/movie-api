@@ -14,7 +14,10 @@ const queryActors = async (filter, options) => {
 };
 
 const getActorById = async (id) => {
-  return Actor.findById(id);
+  return Actor.findById(id).populate({
+    path: "movies",
+    select: "name poster director runningTime rated",
+  });
 };
 
 const getActorByName = async (name) => {
