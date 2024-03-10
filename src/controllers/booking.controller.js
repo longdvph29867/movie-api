@@ -48,17 +48,6 @@ class BookingsCotroller {
   async create(req, res) {
     try {
       const data = { ...req.body };
-      const existingBooking = await bookingService.getBookingByUserShowing(
-        data.showing,
-        data.user
-      );
-      if (existingBooking) {
-        const booking = await bookingService.updateSeatBookingById(
-          existingBooking._id,
-          data.seats
-        );
-        return res.status(httpStatus.CREATED).send(booking);
-      }
       const booking = await bookingService.createBooking(req.body);
       res.status(httpStatus.CREATED).send(booking);
     } catch (err) {
